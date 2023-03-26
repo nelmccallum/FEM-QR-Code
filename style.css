@@ -42,12 +42,13 @@ img {
     border-radius: 10px;
 }
 
-h3 {
+h2 {
     text-align: center;
     font-weight: 700;
-    padding: 0 30px;
+    padding: 0 20px;
     margin: 5px;
     color: hsl(218, 44%, 22%);
+    font-size: 1.2em;
 }
 
 p {
