@@ -7,6 +7,15 @@ body {
     background-attachment: fixed;
 }
 
+.sr-only {
+    position: absolute ;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+  }
+
 .container{
     margin: 5% auto 30px;
     background-color: hsl(212, 45%, 89%);
@@ -38,6 +47,7 @@ h3 {
     font-weight: 700;
     padding: 0 30px;
     margin: 5px;
+    color: hsl(218, 44%, 22%);
 }
 
 p {
@@ -45,7 +55,7 @@ p {
     font-weight: 400;
     padding: 0 30px;
     font-size: 0.9em;
-    color: grey;
+    color: hsl(220, 15%, 55%);
 }
 
 .attribution, .attribution a { 
